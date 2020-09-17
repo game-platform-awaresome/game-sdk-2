@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"noImplicitAny": false,
+		"sourceMap": false,
+		"declaration": true,
+		"outFile": "../../libs/sdk/sdk.js",
+		"lib": [
+			"es5",
+			"dom",
+			"es2015.promise"
+		]
+	},
+	"include": [
+		"libs",
+		"src"
+	],
+	"files": [
+		"src/core/SdkBase.ts",
+		"src/core/HttpLoader.ts"
+	]
+}
