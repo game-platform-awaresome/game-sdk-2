@@ -1,3 +1,9 @@
 {
-	"name": "sdk"
+    "name": "huoyu-game-sdk",
+    "scripts": {
+        "publish": "egret build"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    }
 }
